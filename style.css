@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Prociono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@500&family=Prociono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo';
+    list-style: none;
+    text-decoration: none; 
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    z-index:35;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+.nab{
+    padding: 29px;
+    font-family: 'Heebo';
+}
+
+.home{
+    text-decoration: underline;
+    text-decoration-color:  #8A20F4;
+} 
+
+.logos{
+    width: 30px;
+    padding: 8px;
+}
+
+main{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textContainer  {
+    display: flex;
+    align-items: center;
+    display: grid;
+    margin: 100px;
+}
+
+h1{
+    font-family: 'Prociono';
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 80px;
+}
+
+p{
+    width: 400px;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    background-color: #8A20F4;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-family: 'Poppins';
+}
+
+#caja1{
+    border: 52px solid #3BAA6F;
+    margin-bottom: 70px;
+    width: 1415px;
+    height: 556px;
+    position: relative;
+    z-index: 1;
+}
+
+.c1{
+    position: absolute;
+    top: 250px;
+    left:300px;
+}
+
+.c2{
+    position: absolute;
+    top: 60px;
+    left:225px;
+    z-index: -1;
+}
+
+.c3{
+    position: absolute;
+    top: 135px;
+    right: 453px;
+    z-index: -2;
+}
+
+.c4{
+    position: absolute;
+    top: 200px;
+    left: 94px;
+    z-index: -2;
+}
+
+.carta{
+    box-shadow: 0px 2.76726px 2.21381px 0px rgba(38, 31, 34, 0.02), 0px 6.6501px 5.32008px 0px rgba(38, 31, 34, 0.03), 0px 12.52155px 10.01724px 0px rgba(38, 31, 34, 0.04), 0px 22.33631px 17.86905px 0px rgba(38, 31, 34, 0.04), 0px 41.77761px 33.42209px 0px rgba(38, 31, 34, 0.05), 0px 100px 80px 0px rgba(38, 31, 34, 0.07);
+}
+
+#caja2{
+    border: 52px solid #765CE1;
+    margin-bottom: 70px;
+    width: 1415px;
+    height: 556px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja3{
+    border: 52px solid #DC777B;
+    margin-bottom: 70px;
+    width: 1415px;
+    height: 556px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta5{
+    box-shadow: -5px 5px 5px 5px #452526;
+}
+
+.publicidad{
+    width: 280px;
+    height: 556px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: -52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.der{
+    position: absolute;
+    right: -25px;
+    z-index: 2;
+}
+
+.izq{
+    position: absolute;
+    left: -25px;
+    z-index: 2;
+}
+
+.fondoA{
+    position: relative;
+}
+
+.logoA{
+    position: absolute;
+}
+
+.seccion2-A {
+    top: 20%;
+    left: 28%;  
+}
+
+.hola{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 45.4%;
+}
+
+.text{
+    width: 450px;
+    margin-left: 100px;
+}
+
+#contaxcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+h3{
+    font-family: 'Heebo';
+    color: #C64CFF;
+}
+
+h2{
+    font-family: 'Heebo';
+}
+
+.listacontacto{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Heebo';
+}
+
+.botonfinal{
+    width: 70px;
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    color: #D9D9D9;
+    background: linear-gradient(to right, #C64CFF , #AB40FF); 
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #000000;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.texto{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Heebo';
+}
